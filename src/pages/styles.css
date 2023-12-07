@@ -1,0 +1,65 @@
+.ateliartt-layout-aling {
+    min-height: 100vh;
+    background: var(--color-background);
+}
+
+.ateliartt-row1-styles {
+    background: transparent;
+    margin-top: 40px;
+}
+
+.ateliartt-titlehome-styles {
+    font-size: 80px !important;
+    color: var(--color-text) !important;
+    font-family: 'Dancing Script', cursive;
+}
+
+.ateliartt-image-styles {
+    border: 8px solid #fff;
+    /* Adapte a largura da borda e a cor conforme necessário */
+    border-radius: 12px;
+    /* Adapte o raio da borda conforme necessário */
+    margin: 10px;
+    /* Adapte a margem conforme necessário */
+}
+
+.ateliartt-butterfly {
+    position: absolute;
+    width: 50px;
+    /* ajuste conforme necessário */
+    height: 50px;
+    /* ajuste conforme necessário */
+    background-image: url('../assets/borboleta.png');
+    background-size: cover;
+    animation: flutter 2s infinite alternate;
+}
+
+@keyframes flutter {
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(-10px);
+    }
+}
+
+.ateliartt-galho {
+    position: absolute;
+    width: 300px;
+    /* ajuste conforme necessário */
+    height: 300px;
+    /* ajuste conforme necessário */
+    background-image: url('../assets/galho.png');
+    background-size: cover;
+}
+
+.ateliartt-ramos {
+    position: absolute;
+    width: 600px;
+    /* ajuste conforme necessário */
+    height: 300px;
+    /* ajuste conforme necessário */
+    background-image: url('../assets/ramos.png');
+    background-size: cover;
+}
