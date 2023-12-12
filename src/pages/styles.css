@@ -44,6 +44,16 @@
     }
 }
 
+.ateliartt-mesa {
+    position: absolute;
+    width: 300px;
+    /* ajuste conforme necessário */
+    height: 200px;
+    /* ajuste conforme necessário */
+    background-image: url('../assets/mesa.png');
+    background-size: cover;
+}
+
 .ateliartt-galho {
     position: absolute;
     width: 300px;
@@ -54,12 +64,29 @@
     background-size: cover;
 }
 
-.ateliartt-ramos {
+.ateliartt-kit {
     position: absolute;
-    width: 600px;
+    width: 200px;
     /* ajuste conforme necessário */
     height: 300px;
     /* ajuste conforme necessário */
-    background-image: url('../assets/ramos.png');
+    background-image: url('../assets/kit.png');
     background-size: cover;
+}
+
+.animated-text {
+    opacity: 0;
+    animation: fadeInCenter 2s ease-in-out forwards;
+}
+
+@keyframes fadeInCenter {
+    0% {
+        opacity: 0;
+        transform: translateX(-50%);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0%);
+    }
 }
