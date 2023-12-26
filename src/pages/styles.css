@@ -3,12 +3,45 @@
     background: var(--color-background);
 }
 
-.ateliartt-row1-styles {
-    background: transparent;
-    margin-top: 40px;
+.ateliartt-rowHead-styles {
+    min-height: 10vh;
+    background: var(--color-background-secondary);
 }
 
-.ateliartt-titlehome-styles {
+.ateliartt-row1-styles {
+    min-height: 25vh;
+    background: transparent;
+}
+
+.ateliartt-row1Body-styles {
+    min-height: 65vh;
+    background: var(--color-background-secondary);
+}
+
+.ateliartt-title-styles {
+    font-size: 800% !important;
+    color: var(--color-text) !important;
+    font-family: 'Dancing Script', cursive;
+}
+
+.ateliartt-Subtitle-styles {
+    font-size: 400% !important;
+    color: var(--color-text) !important;
+    font-family: 'Dancing Script', cursive;
+}
+
+.ateliartt-about-styles {
+    font-size: 125% !important;
+    color: var(--color-text) !important;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.ateliartt-title {
+    position: absolute;
+    background-size: cover;
+}
+
+.ateliartt-title2-styles {
     font-size: 80px !important;
     color: var(--color-text) !important;
     font-family: 'Dancing Script', cursive;
@@ -20,46 +53,56 @@
     margin: 10px;
 }
 
-.ateliartt-butterfly {
+.ateliartt-asteristic_blue {
     position: absolute;
-    width: 50px;
-    height: 50px;
-    background-image: url('../assets/borboleta.png');
+    width: 90px;
+    height: 90px;
+    background-image: url('../assets/asteristico_azul.png');
     background-size: cover;
-    animation: flutter 2s infinite alternate;
+    animation: rotate 3s linear infinite;
 }
 
-@keyframes flutter {
+@keyframes rotate {
     0% {
-        transform: translateY(0);
+        transform: rotate(0deg);
     }
 
     100% {
-        transform: translateY(-10px);
+        transform: rotate(360deg);
     }
 }
 
-.ateliartt-mesa {
+.ateliartt-asteristic_pink {
     position: absolute;
-    width: 300px;
-    height: 200px;
-    background-image: url('../assets/mesa.png');
+    width: 90px;
+    height: 90px;
+    background-image: url('../assets/asteristico_rosa.png');
+    background-size: cover;
+    animation: rotate 3s linear infinite;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.ateliartt-img_safari {
+    position: absolute;
     background-size: cover;
 }
 
-.ateliartt-galho {
+.ateliartt-img_mar {
     position: absolute;
-    width: 300px;
-    height: 300px;
-    background-image: url('../assets/galho.png');
     background-size: cover;
 }
 
-.ateliartt-kit {
+.ateliartt-img_boneca {
     position: absolute;
-    width: 200px;
-    height: 300px;
-    background-image: url('../assets/kit.png');
     background-size: cover;
 }
 
@@ -83,7 +126,7 @@
 .ateliartt-row2-styles {
     display: block;
     background: transparent;
-    margin: 100px 50px 50px
+    margin: 50px 50px 50px
 }
 
 .hidden {
@@ -100,4 +143,56 @@
 
 .ateliartt-cardImg-styles {
     height: 50%;
+}
+
+@media (max-width: 1365px) {
+    .ateliartt-layout-aling {
+        min-height: 80vh;
+    }
+
+    .ateliartt-asteristic_blue {
+        display: none;
+    }
+
+    .ateliartt-img_safari {
+        display: none;
+    }
+    
+    .ateliartt-img_mar {
+        display: none;
+    }
+    
+    .ateliartt-img_boneca {
+        display: none;
+    }
+
+    .ateliartt-title-styles {
+        font-size: 700% !important;
+        color: var(--color-text) !important;
+        font-family: 'Dancing Script', cursive;
+    }
+
+    .ateliartt-Subtitle-styles {
+        font-size: 350% !important;
+        color: var(--color-text) !important;
+        font-family: 'Dancing Script', cursive;
+    }
+
+    .ateliartt-about-styles {
+        margin-top: 10px;
+        font-size: 100% !important;
+        color: var(--color-text) !important;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+
+    .ateliartt-title2-styles {
+        font-size: 50px !important;
+        color: var(--color-text) !important;
+        font-family: 'Dancing Script', cursive;
+    }
+
+    .ateliartt-cardImg-styles {
+        height: 80%;
+    }
+    
 }

@@ -5,7 +5,8 @@
 }
 
 :root {
-  --color-background: rgba(255, 186, 186, 0.516);
-  --color-background-secondary: rgb(255, 186, 186);
-  --color-text: #FFFF;
+  --color-background: #FFFF;
+  --color-background-secondary: #FFD4E7;
+  --color-text: #000000;
+  --color-text-secondary: #FFFF;
 }
