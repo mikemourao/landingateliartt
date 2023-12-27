@@ -92,18 +92,22 @@ function App() {
       {/* home */}
       <Row className='ateliartt-rowHead-styles' justify="end" align="middle">
         <div style={{ marginRight: 20 }}>
+        <a href="https://www.instagram.com/bru.ateliartt?utm_source=ig_web_button_share_sheet&igsh=OGQ5ZDc2ODk2ZA==" target="_blank" rel="instagram noreferrer">
           <Image
             height={50}
             src={instagram}
             preview={false}
           />
+        </a>
         </div>
         <div style={{ marginRight: 20 }}>
-          <Image
+        <a href="https://wa.me/992887750" target="_blank" rel="whatsapp noreferrer">
+        <Image
             height={40}
             src={what}
             preview={false}
           />
+        </a>
         </div>
       </Row>
       <Row className='ateliartt-row1-styles' justify="center" align="middle">
