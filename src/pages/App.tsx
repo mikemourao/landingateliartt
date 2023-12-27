@@ -84,7 +84,7 @@ function App() {
       elements.forEach((element) => myObserver.unobserve(element));
     };
   }, []);
-  
+
   return (
     <Layout className='ateliartt-layout-aling'>
       <div className="ateliartt-asteristic_blue" style={{ top: '16%', left: '46%' }}></div>
@@ -133,7 +133,7 @@ function App() {
           />
         </div>
         <div className="ateliartt-img_mar" style={{ top: '20%', left: '80%' }}>
-          <Image  
+          <Image
             className='ateliartt-img_mar-height'
             height={250}
             src={mar}
@@ -169,23 +169,12 @@ function App() {
         <Row justify="end">
           <div className="hidden">
             <Card
-              className='ateliartt-cardImg-styles'
-              style={{
-                display: "flex",
-                flexDirection: "row-reverse",
-                alignContent: "center"
-              }}
-              cover={
-                <img
-                  height="100%"
-                  alt="img01"
-                  src={img01}
-                />
-              }
               hoverable
             >
-              <Meta
-                description="This is the description"
+              <img
+                className='ateliartt-cardImg-styles'
+                alt="img01"
+                src={img01}
               />
             </Card>
           </div>
@@ -193,23 +182,12 @@ function App() {
         <Row justify="start">
           <div className="hidden">
             <Card
-              className='ateliartt-cardImg-styles'
-              style={{
-                display: "flex",
-                flexDirection: "row",
-                alignContent: "center"
-              }}
-              cover={
-                <img
-                  height="100%"
-                  alt="img02"
-                  src={img02}
-                />
-              }
               hoverable
             >
-              <Meta
-                description="This is the description"
+              <img
+                className='ateliartt-cardImg-styles'
+                alt="img02"
+                src={img02}
               />
             </Card>
           </div>
@@ -217,23 +195,12 @@ function App() {
         <Row justify="end">
           <div className="hidden">
             <Card
-              className='ateliartt-cardImg-styles'
-              style={{
-                display: "flex",
-                flexDirection: "row-reverse",
-                alignContent: "center"
-              }}
-              cover={
-                <img
-                  height="100%"
-                  alt="img03"
-                  src={img03}
-                />
-              }
               hoverable
             >
-              <Meta
-                description="This is the description"
+              <img
+                className='ateliartt-cardImg-styles'
+                alt="img03"
+                src={img03}
               />
             </Card>
           </div>
@@ -241,23 +208,12 @@ function App() {
         <Row justify="start">
           <div className="hidden">
             <Card
-              className='ateliartt-cardImg-styles'
-              style={{
-                display: "flex",
-                flexDirection: "row",
-                alignContent: "center"
-              }}
-              cover={
-                <img
-                  height="100%"
-                  alt="img04"
-                  src={img04}
-                />
-              }
               hoverable
             >
-              <Meta
-                description="This is the description"
+              <img
+                className='ateliartt-cardImg-styles'
+                alt="img04"
+                src={img04}
               />
             </Card>
           </div>
@@ -265,23 +221,12 @@ function App() {
         <Row justify="end">
           <div className="hidden">
             <Card
-              className='ateliartt-cardImg-styles'
-              style={{
-                display: "flex",
-                flexDirection: "row-reverse",
-                alignContent: "center"
-              }}
-              cover={
-                <img
-                  height="100%"
-                  alt="img05"
-                  src={img05}
-                />
-              }
               hoverable
             >
-              <Meta
-                description="This is the description"
+              <img
+                className='ateliartt-cardImg-styles'
+                alt="img05"
+                src={img05}
               />
             </Card>
           </div>
@@ -289,23 +234,12 @@ function App() {
         <Row justify="start">
           <div className="hidden">
             <Card
-              className='ateliartt-cardImg-styles'
-              style={{
-                display: "flex",
-                flexDirection: "row",
-                alignContent: "center"
-              }}
-              cover={
-                <img
-                  height="100%"
-                  alt="img06"
-                  src={img06}
-                />
-              }
               hoverable
             >
-              <Meta
-                description="This is the description"
+              <img
+                className='ateliartt-cardImg-styles'
+                alt="img06"
+                src={img06}
               />
             </Card>
           </div>
@@ -313,23 +247,12 @@ function App() {
         <Row justify="end">
           <div className="hidden">
             <Card
-              className='ateliartt-cardImg-styles'
-              style={{
-                display: "flex",
-                flexDirection: "row-reverse",
-                alignContent: "center"
-              }}
-              cover={
-                <img
-                  height="100%"
-                  alt="img07"
-                  src={img07}
-                />
-              }
               hoverable
             >
-              <Meta
-                description="This is the description"
+              <img
+                className='ateliartt-cardImg-styles'
+                alt="img07"
+                src={img07}
               />
             </Card>
           </div>
@@ -337,23 +260,12 @@ function App() {
         <Row justify="start">
           <div className="hidden">
             <Card
-              className='ateliartt-cardImg-styles'
-              style={{
-                display: "flex",
-                flexDirection: "row",
-                alignContent: "center"
-              }}
-              cover={
-                <img
-                  height="100%"
-                  alt="img08"
-                  src={img08}
-                />
-              }
               hoverable
             >
-              <Meta
-                description="This is the description"
+              <img
+                className='ateliartt-cardImg-styles'
+                alt="img08"
+                src={img08}
               />
             </Card>
           </div>
@@ -361,23 +273,12 @@ function App() {
         <Row justify="end">
           <div className="hidden">
             <Card
-              className='ateliartt-cardImg-styles'
-              style={{
-                display: "flex",
-                flexDirection: "row-reverse",
-                alignContent: "center"
-              }}
-              cover={
-                <img
-                  height="100%"
-                  alt="img09"
-                  src={img09}
-                />
-              }
               hoverable
             >
-              <Meta
-                description="This is the description"
+              <img
+                className='ateliartt-cardImg-styles'
+                alt="img09"
+                src={img09}
               />
             </Card>
           </div>
@@ -385,23 +286,12 @@ function App() {
         <Row justify="start">
           <div className="hidden">
             <Card
-              className='ateliartt-cardImg-styles'
-              style={{
-                display: "flex",
-                flexDirection: "row",
-                alignContent: "center"
-              }}
-              cover={
-                <img
-                  height="100%"
-                  alt="img10"
-                  src={img10}
-                />
-              }
               hoverable
             >
-              <Meta
-                description="This is the description"
+              <img
+                className='ateliartt-cardImg-styles'
+                alt="img10"
+                src={img10}
               />
             </Card>
           </div>
@@ -409,23 +299,12 @@ function App() {
         <Row justify="end">
           <div className="hidden">
             <Card
-              className='ateliartt-cardImg-styles'
-              style={{
-                display: "flex",
-                flexDirection: "row-reverse",
-                alignContent: "center"
-              }}
-              cover={
-                <img
-                  height="100%"
-                  alt="img11"
-                  src={img11}
-                />
-              }
               hoverable
             >
-              <Meta
-                description="This is the description"
+              <img
+                className='ateliartt-cardImg-styles'
+                alt="img11"
+                src={img11}
               />
             </Card>
           </div>
@@ -433,23 +312,12 @@ function App() {
         <Row justify="start">
           <div className="hidden">
             <Card
-              className='ateliartt-cardImg-styles'
-              style={{
-                display: "flex",
-                flexDirection: "row",
-                alignContent: "center"
-              }}
-              cover={
-                <img
-                  height="100%"
-                  alt="img12"
-                  src={img12}
-                />
-              }
               hoverable
             >
-              <Meta
-                description="This is the description"
+              <img
+                className='ateliartt-cardImg-styles'
+                alt="img12"
+                src={img12}
               />
             </Card>
           </div>
@@ -457,23 +325,12 @@ function App() {
         <Row justify="end">
           <div className="hidden">
             <Card
-              className='ateliartt-cardImg-styles'
-              style={{
-                display: "flex",
-                flexDirection: "row-reverse",
-                alignContent: "center"
-              }}
-              cover={
-                <img
-                  height="100%"
-                  alt="img13"
-                  src={img13}
-                />
-              }
               hoverable
             >
-              <Meta
-                description="This is the description"
+              <img
+                className='ateliartt-cardImg-styles'
+                alt="img13"
+                src={img13}
               />
             </Card>
           </div>
@@ -481,23 +338,12 @@ function App() {
         <Row justify="start">
           <div className="hidden">
             <Card
-              className='ateliartt-cardImg-styles'
-              style={{
-                display: "flex",
-                flexDirection: "row",
-                alignContent: "center"
-              }}
-              cover={
-                <img
-                  height="100%"
-                  alt="img14"
-                  src={img14}
-                />
-              }
               hoverable
             >
-              <Meta
-                description="This is the description"
+              <img
+                className='ateliartt-cardImg-styles'
+                alt="img14"
+                src={img14}
               />
             </Card>
           </div>
@@ -505,23 +351,12 @@ function App() {
         <Row justify="end">
           <div className="hidden">
             <Card
-              className='ateliartt-cardImg-styles'
-              style={{
-                display: "flex",
-                flexDirection: "row-reverse",
-                alignContent: "center"
-              }}
-              cover={
-                <img
-                  height="100%"
-                  alt="img15"
-                  src={img15}
-                />
-              }
               hoverable
             >
-              <Meta
-                description="This is the description"
+              <img
+                className='ateliartt-cardImg-styles'
+                alt="img15"
+                src={img15}
               />
             </Card>
           </div>
@@ -529,23 +364,12 @@ function App() {
         <Row justify="start">
           <div className="hidden">
             <Card
-              className='ateliartt-cardImg-styles'
-              style={{
-                display: "flex",
-                flexDirection: "row",
-                alignContent: "center"
-              }}
-              cover={
-                <img
-                  height="100%"
-                  alt="img16"
-                  src={img16}
-                />
-              }
               hoverable
             >
-              <Meta
-                description="This is the description"
+              <img
+                className='ateliartt-cardImg-styles'
+                alt="img16"
+                src={img16}
               />
             </Card>
           </div>
@@ -553,23 +377,12 @@ function App() {
         <Row justify="end">
           <div className="hidden">
             <Card
-              className='ateliartt-cardImg-styles'
-              style={{
-                display: "flex",
-                flexDirection: "row-reverse",
-                alignContent: "center"
-              }}
-              cover={
-                <img
-                  height="100%"
-                  alt="img17"
-                  src={img17}
-                />
-              }
               hoverable
             >
-              <Meta
-                description="This is the description"
+              <img
+                className='ateliartt-cardImg-styles'
+                alt="img17"
+                src={img17}
               />
             </Card>
           </div>
@@ -577,23 +390,12 @@ function App() {
         <Row justify="start">
           <div className="hidden">
             <Card
-              className='ateliartt-cardImg-styles'
-              style={{
-                display: "flex",
-                flexDirection: "row",
-                alignContent: "center"
-              }}
-              cover={
-                <img
-                  height="100%"
-                  alt="img18"
-                  src={img18}
-                />
-              }
               hoverable
             >
-              <Meta
-                description="This is the description"
+              <img
+                className='ateliartt-cardImg-styles'
+                alt="img18"
+                src={img18}
               />
             </Card>
           </div>
@@ -601,23 +403,12 @@ function App() {
         <Row justify="end">
           <div className="hidden">
             <Card
-              className='ateliartt-cardImg-styles'
-              style={{
-                display: "flex",
-                flexDirection: "row-reverse",
-                alignContent: "center"
-              }}
-              cover={
-                <img
-                  height="100%"
-                  alt="img19"
-                  src={img19}
-                />
-              }
               hoverable
             >
-              <Meta
-                description="This is the description"
+              <img
+                className='ateliartt-cardImg-styles'
+                alt="img19"
+                src={img19}
               />
             </Card>
           </div>
@@ -625,23 +416,12 @@ function App() {
         <Row justify="start">
           <div className="hidden">
             <Card
-              className='ateliartt-cardImg-styles'
-              style={{
-                display: "flex",
-                flexDirection: "row",
-                alignContent: "center"
-              }}
-              cover={
-                <img
-                  height="100%"
-                  alt="img20"
-                  src={img20}
-                />
-              }
               hoverable
             >
-              <Meta
-                description="This is the description"
+              <img
+                className='ateliartt-cardImg-styles'
+                alt="img20"
+                src={img20}
               />
             </Card>
           </div>
@@ -649,23 +429,12 @@ function App() {
         <Row justify="end">
           <div className="hidden">
             <Card
-              className='ateliartt-cardImg-styles'
-              style={{
-                display: "flex",
-                flexDirection: "row-reverse",
-                alignContent: "center"
-              }}
-              cover={
-                <img
-                  height="100%"
-                  alt="img21"
-                  src={img21}
-                />
-              }
               hoverable
             >
-              <Meta
-                description="This is the description"
+              <img
+                className='ateliartt-cardImg-styles'
+                alt="img21"
+                src={img21}
               />
             </Card>
           </div>
@@ -673,23 +442,12 @@ function App() {
         <Row justify="start">
           <div className="hidden">
             <Card
-              className='ateliartt-cardImg-styles'
-              style={{
-                display: "flex",
-                flexDirection: "row",
-                alignContent: "center"
-              }}
-              cover={
-                <img
-                  height="100%"
-                  alt="img22"
-                  src={img22}
-                />
-              }
               hoverable
             >
-              <Meta
-                description="This is the description"
+              <img
+                className='ateliartt-cardImg-styles'
+                alt="img22"
+                src={img22}
               />
             </Card>
           </div>
@@ -697,23 +455,12 @@ function App() {
         <Row justify="end">
           <div className="hidden">
             <Card
-              className='ateliartt-cardImg-styles'
-              style={{
-                display: "flex",
-                flexDirection: "row-reverse",
-                alignContent: "center"
-              }}
-              cover={
-                <img
-                  height="100%"
-                  alt="img23"
-                  src={img23}
-                />
-              }
               hoverable
             >
-              <Meta
-                description="This is the description"
+              <img
+                className='ateliartt-cardImg-styles'
+                alt="img23"
+                src={img23}
               />
             </Card>
           </div>
@@ -721,23 +468,12 @@ function App() {
         <Row justify="start">
           <div className="hidden">
             <Card
-              className='ateliartt-cardImg-styles'
-              style={{
-                display: "flex",
-                flexDirection: "row",
-                alignContent: "center"
-              }}
-              cover={
-                <img
-                  height="100%"
-                  alt="img24"
-                  src={img24}
-                />
-              }
               hoverable
             >
-              <Meta
-                description="This is the description"
+              <img
+                className='ateliartt-cardImg-styles'
+                alt="img24"
+                src={img24}
               />
             </Card>
           </div>
@@ -745,23 +481,12 @@ function App() {
         <Row justify="end">
           <div className="hidden">
             <Card
-              className='ateliartt-cardImg-styles'
-              style={{
-                display: "flex",
-                flexDirection: "row-reverse",
-                alignContent: "center"
-              }}
-              cover={
-                <img
-                  height="100%"
-                  alt="img25"
-                  src={img25}
-                />
-              }
               hoverable
             >
-              <Meta
-                description="This is the description"
+              <img
+                className='ateliartt-cardImg-styles'
+                alt="img25"
+                src={img25}
               />
             </Card>
           </div>
@@ -769,23 +494,12 @@ function App() {
         <Row justify="start">
           <div className="hidden">
             <Card
-              className='ateliartt-cardImg-styles'
-              style={{
-                display: "flex",
-                flexDirection: "row",
-                alignContent: "center"
-              }}
-              cover={
-                <img
-                  height="100%"
-                  alt="img26"
-                  src={img26}
-                />
-              }
               hoverable
             >
-              <Meta
-                description="This is the description"
+              <img
+                className='ateliartt-cardImg-styles'
+                alt="img26"
+                src={img26}
               />
             </Card>
           </div>
@@ -793,23 +507,12 @@ function App() {
         <Row justify="end">
           <div className="hidden">
             <Card
-              className='ateliartt-cardImg-styles'
-              style={{
-                display: "flex",
-                flexDirection: "row-reverse",
-                alignContent: "center"
-              }}
-              cover={
-                <img
-                  height="100%"
-                  alt="img27"
-                  src={img27}
-                />
-              }
               hoverable
             >
-              <Meta
-                description="This is the description"
+              <img
+                className='ateliartt-cardImg-styles'
+                alt="img27"
+                src={img27}
               />
             </Card>
           </div>
@@ -817,23 +520,12 @@ function App() {
         <Row justify="start">
           <div className="hidden">
             <Card
-              className='ateliartt-cardImg-styles'
-              style={{
-                display: "flex",
-                flexDirection: "row",
-                alignContent: "center"
-              }}
-              cover={
-                <img
-                  height="100%"
-                  alt="img28"
-                  src={img28}
-                />
-              }
               hoverable
             >
-              <Meta
-                description="This is the description"
+              <img
+                className='ateliartt-cardImg-styles'
+                alt="img28"
+                src={img28}
               />
             </Card>
           </div>
@@ -841,23 +533,12 @@ function App() {
         <Row justify="end">
           <div className="hidden">
             <Card
-              className='ateliartt-cardImg-styles'
-              style={{
-                display: "flex",
-                flexDirection: "row-reverse",
-                alignContent: "center"
-              }}
-              cover={
-                <img
-                  height="100%"
-                  alt="img29"
-                  src={img29}
-                />
-              }
               hoverable
             >
-              <Meta
-                description="This is the description"
+              <img
+                className='ateliartt-cardImg-styles'
+                alt="img29"
+                src={img29}
               />
             </Card>
           </div>
@@ -865,23 +546,12 @@ function App() {
         <Row justify="start">
           <div className="hidden">
             <Card
-              className='ateliartt-cardImg-styles'
-              style={{
-                display: "flex",
-                flexDirection: "row",
-                alignContent: "center"
-              }}
-              cover={
-                <img
-                  height="100%"
-                  alt="img30"
-                  src={img30}
-                />
-              }
               hoverable
             >
-              <Meta
-                description="This is the description"
+              <img
+                className='ateliartt-cardImg-styles'
+                alt="img30"
+                src={img30}
               />
             </Card>
           </div>
@@ -889,23 +559,12 @@ function App() {
         <Row justify="end">
           <div className="hidden">
             <Card
-              className='ateliartt-cardImg-styles'
-              style={{
-                display: "flex",
-                flexDirection: "row-reverse",
-                alignContent: "center"
-              }}
-              cover={
-                <img
-                  height="100%"
-                  alt="img31"
-                  src={img31}
-                />
-              }
               hoverable
             >
-              <Meta
-                description="This is the description"
+              <img
+                className='ateliartt-cardImg-styles'
+                alt="img31"
+                src={img31}
               />
             </Card>
           </div>
@@ -913,23 +572,12 @@ function App() {
         <Row justify="start">
           <div className="hidden">
             <Card
-              className='ateliartt-cardImg-styles'
-              style={{
-                display: "flex",
-                flexDirection: "row",
-                alignContent: "center"
-              }}
-              cover={
-                <img
-                  height="100%"
-                  alt="img32"
-                  src={img32}
-                />
-              }
               hoverable
             >
-              <Meta
-                description="This is the description"
+              <img
+                className='ateliartt-cardImg-styles'
+                alt="img32"
+                src={img32}
               />
             </Card>
           </div>
@@ -937,23 +585,12 @@ function App() {
         <Row justify="end">
           <div className="hidden">
             <Card
-              className='ateliartt-cardImg-styles'
-              style={{
-                display: "flex",
-                flexDirection: "row-reverse",
-                alignContent: "center"
-              }}
-              cover={
-                <img
-                  height="100%"
-                  alt="img33"
-                  src={img33}
-                />
-              }
               hoverable
             >
-              <Meta
-                description="This is the description"
+              <img
+                className='ateliartt-cardImg-styles'
+                alt="img33"
+                src={img33}
               />
             </Card>
           </div>
@@ -961,23 +598,12 @@ function App() {
         <Row justify="start">
           <div className="hidden">
             <Card
-              className='ateliartt-cardImg-styles'
-              style={{
-                display: "flex",
-                flexDirection: "row",
-                alignContent: "center"
-              }}
-              cover={
-                <img
-                  height="100%"
-                  alt="img34"
-                  src={img34}
-                />
-              }
               hoverable
             >
-              <Meta
-                description="This is the description"
+              <img
+                className='ateliartt-cardImg-styles'
+                alt="img34"
+                src={img34}
               />
             </Card>
           </div>
@@ -985,23 +611,12 @@ function App() {
         <Row justify="end">
           <div className="hidden">
             <Card
-              className='ateliartt-cardImg-styles'
-              style={{
-                display: "flex",
-                flexDirection: "row-reverse",
-                alignContent: "center"
-              }}
-              cover={
-                <img
-                  height="100%"
-                  alt="img35"
-                  src={img35}
-                />
-              }
               hoverable
             >
-              <Meta
-                description="This is the description"
+              <img
+                className='ateliartt-cardImg-styles'
+                alt="img35"
+                src={img35}
               />
             </Card>
           </div>
@@ -1009,23 +624,12 @@ function App() {
         <Row justify="start">
           <div className="hidden">
             <Card
-              className='ateliartt-cardImg-styles'
-              style={{
-                display: "flex",
-                flexDirection: "row",
-                alignContent: "center"
-              }}
-              cover={
-                <img
-                  height="100%"
-                  alt="img36"
-                  src={img36}
-                />
-              }
               hoverable
             >
-              <Meta
-                description="This is the description"
+              <img
+                className='ateliartt-cardImg-styles'
+                alt="img36"
+                src={img36}
               />
             </Card>
           </div>
@@ -1033,23 +637,12 @@ function App() {
         <Row justify="end">
           <div className="hidden">
             <Card
-              className='ateliartt-cardImg-styles'
-              style={{
-                display: "flex",
-                flexDirection: "row-reverse",
-                alignContent: "center"
-              }}
-              cover={
-                <img
-                  height="100%"
-                  alt="img37"
-                  src={img37}
-                />
-              }
               hoverable
             >
-              <Meta
-                description="This is the description"
+              <img
+                className='ateliartt-cardImg-styles'
+                alt="img37"
+                src={img37}
               />
             </Card>
           </div>
@@ -1057,23 +650,12 @@ function App() {
         <Row justify="start">
           <div className="hidden">
             <Card
-              className='ateliartt-cardImg-styles'
-              style={{
-                display: "flex",
-                flexDirection: "row",
-                alignContent: "center"
-              }}
-              cover={
-                <img
-                  height="100%"
-                  alt="img38"
-                  src={img38}
-                />
-              }
               hoverable
             >
-              <Meta
-                description="This is the description"
+              <img
+                className='ateliartt-cardImg-styles'
+                alt="img38"
+                src={img38}
               />
             </Card>
           </div>
@@ -1081,23 +663,12 @@ function App() {
         <Row justify="end">
           <div className="hidden">
             <Card
-              className='ateliartt-cardImg-styles'
-              style={{
-                display: "flex",
-                flexDirection: "row-reverse",
-                alignContent: "center"
-              }}
-              cover={
-                <img
-                  height="100%"
-                  alt="img39"
-                  src={img39}
-                />
-              }
               hoverable
             >
-              <Meta
-                description="This is the description"
+              <img
+                className='ateliartt-cardImg-styles'
+                alt="img39"
+                src={img39}
               />
             </Card>
           </div>
@@ -1105,23 +676,12 @@ function App() {
         <Row justify="start">
           <div className="hidden">
             <Card
-              className='ateliartt-cardImg-styles'
-              style={{
-                display: "flex",
-                flexDirection: "row",
-                alignContent: "center"
-              }}
-              cover={
-                <img
-                  height="100%"
-                  alt="img40"
-                  src={img40}
-                />
-              }
               hoverable
             >
-              <Meta
-                description="This is the description"
+              <img
+                className='ateliartt-cardImg-styles'
+                alt="img40"
+                src={img40}
               />
             </Card>
           </div>
@@ -1129,23 +689,12 @@ function App() {
         <Row justify="end">
           <div className="hidden">
             <Card
-              className='ateliartt-cardImg-styles'
-              style={{
-                display: "flex",
-                flexDirection: "row-reverse",
-                alignContent: "center"
-              }}
-              cover={
-                <img
-                  height="100%"
-                  alt="img41"
-                  src={img41}
-                />
-              }
               hoverable
             >
-              <Meta
-                description="This is the description"
+              <img
+                className='ateliartt-cardImg-styles'
+                alt="img41"
+                src={img41}
               />
             </Card>
           </div>
@@ -1153,23 +702,12 @@ function App() {
         <Row justify="start">
           <div className="hidden">
             <Card
-              className='ateliartt-cardImg-styles'
-              style={{
-                display: "flex",
-                flexDirection: "row",
-                alignContent: "center"
-              }}
-              cover={
-                <img
-                  height="100%"
-                  alt="img42"
-                  src={img42}
-                />
-              }
               hoverable
             >
-              <Meta
-                description="This is the description"
+              <img
+                className='ateliartt-cardImg-styles'
+                alt="img42"
+                src={img42}
               />
             </Card>
           </div>
@@ -1177,23 +715,12 @@ function App() {
         <Row justify="end">
           <div className="hidden">
             <Card
-              className='ateliartt-cardImg-styles'
-              style={{
-                display: "flex",
-                flexDirection: "row-reverse",
-                alignContent: "center"
-              }}
-              cover={
-                <img
-                  height="100%"
-                  alt="img43"
-                  src={img43}
-                />
-              }
               hoverable
             >
-              <Meta
-                description="This is the description"
+              <img
+                className='ateliartt-cardImg-styles'
+                alt="img43"
+                src={img43}
               />
             </Card>
           </div>
@@ -1201,23 +728,12 @@ function App() {
         <Row justify="start">
           <div className="hidden">
             <Card
-              className='ateliartt-cardImg-styles'
-              style={{
-                display: "flex",
-                flexDirection: "row",
-                alignContent: "center"
-              }}
-              cover={
-                <img
-                  height="100%"
-                  alt="img44"
-                  src={img44}
-                />
-              }
               hoverable
             >
-              <Meta
-                description="This is the description"
+              <img
+                className='ateliartt-cardImg-styles'
+                alt="img44"
+                src={img44}
               />
             </Card>
           </div>
@@ -1225,23 +741,12 @@ function App() {
         <Row justify="end">
           <div className="hidden">
             <Card
-              className='ateliartt-cardImg-styles'
-              style={{
-                display: "flex",
-                flexDirection: "row-reverse",
-                alignContent: "center"
-              }}
-              cover={
-                <img
-                  height="100%"
-                  alt="img45"
-                  src={img45}
-                />
-              }
               hoverable
             >
-              <Meta
-                description="This is the description"
+              <img
+                className='ateliartt-cardImg-styles'
+                alt="img45"
+                src={img45}
               />
             </Card>
           </div>
@@ -1249,23 +754,12 @@ function App() {
         <Row justify="start">
           <div className="hidden">
             <Card
-              className='ateliartt-cardImg-styles'
-              style={{
-                display: "flex",
-                flexDirection: "row",
-                alignContent: "center"
-              }}
-              cover={
-                <img
-                  height="100%"
-                  alt="img46"
-                  src={img46}
-                />
-              }
               hoverable
             >
-              <Meta
-                description="This is the description"
+              <img
+                className='ateliartt-cardImg-styles'
+                alt="img46"
+                src={img46}
               />
             </Card>
           </div>
@@ -1273,23 +767,12 @@ function App() {
         <Row justify="end">
           <div className="hidden">
             <Card
-              className='ateliartt-cardImg-styles'
-              style={{
-                display: "flex",
-                flexDirection: "row-reverse",
-                alignContent: "center"
-              }}
-              cover={
-                <img
-                  height="100%"
-                  alt="img47"
-                  src={img47}
-                />
-              }
               hoverable
             >
-              <Meta
-                description="This is the description"
+              <img
+                className='ateliartt-cardImg-styles'
+                alt="img47"
+                src={img47}
               />
             </Card>
           </div>
@@ -1297,23 +780,12 @@ function App() {
         <Row justify="start">
           <div className="hidden">
             <Card
-              className='ateliartt-cardImg-styles'
-              style={{
-                display: "flex",
-                flexDirection: "row",
-                alignContent: "center"
-              }}
-              cover={
-                <img
-                  height="100%"
-                  alt="img48"
-                  src={img48}
-                />
-              }
               hoverable
             >
-              <Meta
-                description="This is the description"
+              <img
+                className='ateliartt-cardImg-styles'
+                alt="img48"
+                src={img48}
               />
             </Card>
           </div>
@@ -1321,23 +793,12 @@ function App() {
         <Row justify="end">
           <div className="hidden">
             <Card
-              className='ateliartt-cardImg-styles'
-              style={{
-                display: "flex",
-                flexDirection: "row-reverse",
-                alignContent: "center"
-              }}
-              cover={
-                <img
-                  height="100%"
-                  alt="img49"
-                  src={img49}
-                />
-              }
               hoverable
             >
-              <Meta
-                description="This is the description"
+              <img
+                className='ateliartt-cardImg-styles'
+                alt="img49"
+                src={img49}
               />
             </Card>
           </div>
@@ -1345,23 +806,12 @@ function App() {
         <Row justify="start">
           <div className="hidden">
             <Card
-              className='ateliartt-cardImg-styles'
-              style={{
-                display: "flex",
-                flexDirection: "row",
-                alignContent: "center"
-              }}
-              cover={
-                <img
-                  height="100%"
-                  alt="img50"
-                  src={img50}
-                />
-              }
               hoverable
             >
-              <Meta
-                description="This is the description"
+              <img
+                className='ateliartt-cardImg-styles'
+                alt="img50"
+                src={img50}
               />
             </Card>
           </div>
@@ -1369,23 +819,12 @@ function App() {
         <Row justify="end">
           <div className="hidden">
             <Card
-              className='ateliartt-cardImg-styles'
-              style={{
-                display: "flex",
-                flexDirection: "row-reverse",
-                alignContent: "center"
-              }}
-              cover={
-                <img
-                  height="100%"
-                  alt="img51"
-                  src={img51}
-                />
-              }
               hoverable
             >
-              <Meta
-                description="This is the description"
+              <img
+                className='ateliartt-cardImg-styles'
+                alt="img51"
+                src={img51}
               />
             </Card>
           </div>
@@ -1393,23 +832,12 @@ function App() {
         <Row justify="start">
           <div className="hidden">
             <Card
-              className='ateliartt-cardImg-styles'
-              style={{
-                display: "flex",
-                flexDirection: "row",
-                alignContent: "center"
-              }}
-              cover={
-                <img
-                  height="100%"
-                  alt="img52"
-                  src={img52}
-                />
-              }
               hoverable
             >
-              <Meta
-                description="This is the description"
+              <img
+                className='ateliartt-cardImg-styles'
+                alt="img52"
+                src={img52}
               />
             </Card>
           </div>
@@ -1417,23 +845,12 @@ function App() {
         <Row justify="end">
           <div className="hidden">
             <Card
-              className='ateliartt-cardImg-styles'
-              style={{
-                display: "flex",
-                flexDirection: "row-reverse",
-                alignContent: "center"
-              }}
-              cover={
-                <img
-                  height="100%"
-                  alt="img53"
-                  src={img53}
-                />
-              }
               hoverable
             >
-              <Meta
-                description="This is the description"
+              <img
+                className='ateliartt-cardImg-styles'
+                alt="img53"
+                src={img53}
               />
             </Card>
           </div>
@@ -1441,23 +858,12 @@ function App() {
         <Row justify="start">
           <div className="hidden">
             <Card
-              className='ateliartt-cardImg-styles'
-              style={{
-                display: "flex",
-                flexDirection: "row",
-                alignContent: "center"
-              }}
-              cover={
-                <img
-                  height="100%"
-                  alt="img54"
-                  src={img54}
-                />
-              }
               hoverable
             >
-              <Meta
-                description="This is the description"
+              <img
+                className='ateliartt-cardImg-styles'
+                alt="img54"
+                src={img54}
               />
             </Card>
           </div>

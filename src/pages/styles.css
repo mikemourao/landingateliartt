@@ -142,7 +142,7 @@
 }
 
 .ateliartt-cardImg-styles {
-    height: 50%;
+    height: 500px;
 }
 
 @media (max-width: 1365px) {
@@ -192,7 +192,7 @@
     }
 
     .ateliartt-cardImg-styles {
-        height: 80%;
+        height: 150px;
     }
     
 }
@@ -213,5 +213,9 @@
 
     .ateliartt-img_boneca-height {
         height: 320px !important;
+    }
+
+    .ateliartt-cardImg-styles {
+        height: 700px;
     }
 }
