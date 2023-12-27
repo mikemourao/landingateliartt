@@ -1,5 +1,5 @@
 import { useEffect } from 'react';
-import { Layout, Row, Image, Typography, Card } from "antd";
+import { Layout, Row, Image, Typography, Card, FloatButton } from "antd";
 import what from '../assets/whatsapp.png'
 import instagram from '../assets/instagram.png'
 import safari from '../assets/imghomesafari.png'
@@ -84,7 +84,7 @@ function App() {
       elements.forEach((element) => myObserver.unobserve(element));
     };
   }, []);
-
+  
   return (
     <Layout className='ateliartt-layout-aling'>
       <div className="ateliartt-asteristic_blue" style={{ top: '16%', left: '46%' }}></div>
@@ -1463,6 +1463,7 @@ function App() {
           </div>
         </Row>
       </Row>
+      <FloatButton.BackTop visibilityHeight={0} />
     </Layout>
   );
 }
