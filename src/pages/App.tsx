@@ -71,6 +71,7 @@ function App() {
         </div>
         <div className="ateliartt-img_safari" style={{ top: '20%', left: '50%' }}>
           <Image
+            className='ateliartt-img_safari-height'
             height={400}
             src={safari}
             alt="safari"
@@ -78,7 +79,8 @@ function App() {
           />
         </div>
         <div className="ateliartt-img_mar" style={{ top: '20%', left: '80%' }}>
-          <Image
+          <Image  
+            className='ateliartt-img_mar-height'
             height={250}
             src={mar}
             alt="safari"
@@ -87,6 +89,7 @@ function App() {
         </div>
         <div className="ateliartt-img_boneca" style={{ top: '57%', left: '80%' }}>
           <Image
+            className='ateliartt-img_boneca-height'
             height={250}
             src={boneca}
             alt="safari"

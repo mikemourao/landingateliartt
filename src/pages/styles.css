@@ -196,3 +196,22 @@
     }
     
 }
+
+@media only screen and (min-width: 1920px) {
+    .ateliartt-layout-aling {
+        min-height: 100vh;
+        background: var(--color-background);
+    }
+
+    .ateliartt-img_safari-height {
+        height: 500px !important;
+    }
+
+    .ateliartt-img_mar-height {
+        height: 320px !important;
+    }
+
+    .ateliartt-img_boneca-height {
+        height: 320px !important;
+    }
+}
