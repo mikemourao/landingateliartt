@@ -123,6 +123,7 @@ function App() {
         <Row key={index} justify={index % 2 === 0 ? "end" : "start"}>
           <div className="hidden">
             <Card
+              style={{background: 'var(--color-background-secondary)'}}
               hoverable
             >
               <img
